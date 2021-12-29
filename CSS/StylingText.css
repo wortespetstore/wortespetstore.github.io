@@ -1,0 +1,260 @@
+body {
+    background-image: url(../../../Downloads/magicpattern-blob-1639975787593.svg);
+    background-color: rgb(218, 235, 172);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    
+    } 
+
+p, ul li, ol li  {
+    line-height: 2em;
+
+}
+
+.intro {
+    text-indent: 2em;
+}
+
+
+/*Line height*/
+/*The line-height property defines the minimum distance from baseline to
+baseline in text. We saw it earlier as part of the shorthand font property. The
+line-height property is said to specify a “minimum” distance because if you
+put a tall image or large characters on a line, the height of that line expands
+to accommodate it.
+A baseline is the imaginary line upon which the bottoms of characters sit.
+Setting a line height in CSS is similar to adding leading in traditional typesetting; however, instead of space being added between lines, the extra space
+is split above and below the text. The result is that line-height defines the
+height of a line-box in which the text line is vertically centered (*/
+
+p {
+    line-height: 1.9em;
+    font-weight: 450;
+    text-align: justify;
+
+}
+
+/*text-indent property*/
+/*The text-indent property indents the first line of text by a specified amount.
+text-indent*/
+/*The text-indent property indents just
+the first line of a block. If you want space
+along the whole side of the text block,
+use one of the margin or padding properties to add it*/
+/*Percentage values are calculated based on the width of the parent element,
+and they are passed down to their descendant elements as percentage values
+(not calculated values). So if a div has a text-indent of 10%, so will all of its
+descendants.
+In the third example, notice that a negative value was specified, and that’s just
+fine. It will cause the first line of text to hang out to the left of the left text
+edge (also called a hanging indent)*/
+/*If you use a hanging indent, be sure
+that there is also a left padding
+applied to the element. Otherwise,
+the hanging text may disappear off
+the left edge of the browser window*/
+
+
+/*Horizontal text alignment*/
+/*You can align text for web pages just as you would in a word processing or
+desktop publishing program with the text-align property*/
+/*It takes one of the four values */
+/*text-align: left Aligns text on the left margin
+text-align: right Aligns text on the right margin
+text-align: center Centers the text in the text block
+text-align: justify Aligns text on both right and left margins*/
+
+.right {
+    text-align: right;
+}
+
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+    padding: 20px;
+    border-bottom: black dotted;
+    background-image: url(../../../Downloads/pet-love1.png);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-size: 100px;
+}
+
+
+img[src*="duy-pham-Cecb0_8Hx-o-unsplash"] {
+    background-color: lavender;
+    border: thin indigo dotted;
+}
+
+
+/*Text-decoration*/
+/*f you want to put a line under, over, or through text, or if you’d like to turn
+of the underline under links, then text-decoration is the property for you.*/
+/*The values for text-decoration are intuitive and are shown in FIGURE 12-15.
+underline Underlines the element
+overline Draws a line over the text
+line-through Draws a line through the text
+The most popular use of the text-decoration property is turning off the
+underlines that appear automatically under linked text, as shown here:
+a { text-decoration: none; }
+There are a few cautionary words to be said regarding text-decoration:
+• First, if you get rid of the underlines under links, be sure there are other
+cues to compensate, such as color and weight.*/
+/*On the flip side, because underlines are such a strong visual cue to “click
+here,” underlining text that is not a link may be misleading and frustrating. Consider whether italics may be an acceptable alternative.
+• Finally, there is no reason to make your text blink. Browser makers agree
+and therefore have dropped support for blinking text. IE never supported
+it in the first place.*/
+
+a:link {
+    text-decoration: none;
+    color: crimson;
+}
+
+a:visited {
+    color: maroon;
+
+}
+
+a:hover {
+    text-decoration: underline currentColor;
+}
+
+/*Capitalization*/
+/*  When you apply the text-transform property to a text element, it changes
+its capitalization when it renders without changing the way it is typed in the
+source. The values are as follows (FIGURE 12-16):
+none As it is typed in the source
+capitalize Capitalizes the first letter of each word
+lowercase Makes all letters lowercase
+uppercase Makes all letters uppercase
+full-width Chooses a “full-width” version of a character if one exists
+
+
+(not well supported)*/
+
+#harmony {
+    text-transform: capitalize;
+}
+
+
+h5 {
+    text-transform: uppercase;
+    text-align: right;
+    letter-spacing: 0.2em;
+    text-shadow: 2px 2px 3px grey;
+
+}
+
+
+
+
+/*Spacing*/
+/*Specifying letter spacing and word spacing using letter-spacing and word-spacing properties respectively.*/
+
+
+/*Text shadow effect*/
+/*The text-shadow property adds a “shadow” below your text that makes it
+seem to hover or pop out above the page. Since flat-color design has become
+the fashion, drop shadows have gone out of style, but they can still be a useful
+visual tool, particularly when your text is in front of a patterned or photographic background.
+Text shadows are drawn behind the text but in front of the background and
+border if there is one.*/
+/*The value for the text-shadow property is two or three measurements (a horizontal offset, vertical offset, and an optional blur radius) and a color.*/
+/*The first value is a horizontal offset that positions the shadow to the right of
+the text (a negative value pulls the shadow to the left of the text). The second
+measurement is a vertical offset that moves the shadow down by the specified amount (a negative value moves the shadow up). The declaration ends
+with the color specification (silver). If the color is omitted, the text color will
+be used*/
+
+/*Changing list bullets and numbers*/
+/*As you know, browsers
+automatically insert bullets before unordered list items, and numbers before
+items in ordered lists (the list markers). For the most part, the rendering of
+these markers is determined by the browser. However, CSS provides a few
+properties that allow authors to choose the type and position of the marker,
+or turn them off entirely*/
+/*Apply the list-style-type property to the ul, ol, or li element select the
+type of marker that appears before each list item (*/
+/*More often than not, developers use the list-style-type property with its
+value set to none to remove bullets or numbers altogether. This is handy when
+you’re using list markup as the foundation for a horizontal navigation menu
+or the entries in a web form*/
+/*It takes the following values*/
+/*decimal 1, 2, 3, 4, 5…
+decimal-leading-zero 01, 02, 03, 04, 05…
+lower-alpha a, b, c, d, e…
+upper-alpha A, B, C, D, E…
+lower-latin a, b, c, d, e… (same as lower-alpha)
+upper-latin A, B, C, D, E… (same as upper-alpha)
+lower-roman i, ii, iii, iv, v…
+upper-roman I, II, III, IV, V…
+lower-greek α, β, γ, δ, ε…*/
+
+
+/*To display any paragraphs or any element as a list use "display: list-item"*/
+/*Use list-style-type to choose among disc (default), circle, square*/
+
+p.list1 {
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+ul {
+    list-style-type:square;
+}
+
+ol#list2 {
+    list-style-type: lower-roman;
+    list-style-image: url(../../../Downloads/icons8-hand-right-48.png);
+}
+/*Changing marker position */
+
+/*By default, the marker hangs outside the content area for the list item, displaying as a hanging indent. The list-style-position property allows you
+to pull the bullet inside the content area so it runs into the list content*/
+
+/*You can see that when the position is set to outside (top), the markers fall outside the content
+area.When it is set to inside (bottom), the markers are tucked into the content area.*/
+
+#list3 {
+    list-style-position: outside;
+   
+    
+}
+
+#list2 {
+    list-style-position: inside;
+}
+
+/*li {
+    background-color: rgb(248, 255, 224);
+}*/
+
+/*CSS3 adds the hanging value for list-styleposition. it is similar to inside, but the markers
+appear outside and abutting the left edge of the
+shaded area.*/
+
+#list4 {
+    list-style-type: armenian;
+    list-style-position: hanging;
+    
+}
+
+
+/*Make your own bullets usin list-style-image*/
+/*The value of the list-style-image property is the URL of the image you
+want to use as a marker. The list-style-type is set to disc as a backup
+in case the image does not display or the property isn’t supported by the
+browser or other user agent. */
+
+dl {
+    line-height: 1.8em;
+}
+
+#process {
+    list-style-type: circle;
+    list-style-image: url(../Icons/icons8-ladybird-48.png);
+    list-style-position: outside;
+    
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="1080px" width="1920px">
+  <defs>
+    <pattern id="doodad" width="52.83" height="61" viewBox="0 0 69.2820323027551 80" patternUnits="userSpaceOnUse" patternTransform="">
+      <rect width="100%" height="100%" fill="rgba(198, 207, 241,1)"/>
+      <path d="M86.6 70L69.28 80L51.96 70L51.96 50L69.28 40L86.6 50L86.6 70 86.6 50L69.28 40L51.96 50L51.96 70L69.28 80L86.6 70L86.6 50z" stroke-linejoin="miter" fill="rgba(42, 76, 101,1)"/>
+      <path d="M51.96 90L34.64 100L17.32 90L17.32 70L34.64 60L51.96 70L51.96 90 51.96 70L34.64 60L17.32 70L17.32 90L34.64 100L51.96 90L51.96 70z" stroke-linejoin="miter" fill="rgba(42, 76, 101,1)"/>
+      <path d="M17.32 70L0 80L-17.32 70L-17.32 50L0 40L17.32 50L17.32 70 17.32 50L0 40L-17.32 50L-17.32 70L0 80L17.32 70L17.32 50z" stroke-linejoin="miter" fill="rgba(42, 76, 101,1)"/>
+      <path d="M17.32 30L0 40L-17.32 30L-17.32 10L0 0L17.32 10L17.32 30 17.32 10L0 0L-17.32 10L-17.32 30L0 40L17.32 30L17.32 10z" stroke-linejoin="miter" fill="rgba(42, 76, 101,1)"/>
+      <path d="M51.96 10L34.64 20L17.32 10L17.32-10L34.64-20L51.96-10L51.96 10 51.96-10L34.64-20L17.32-10L17.32 10L34.64 20L51.96 10L51.96-10z" stroke-linejoin="miter" fill="rgba(42, 76, 101,1)"/>
+      <path d="M86.6 30L69.28 40L51.96 30L51.96 10L69.28 0L86.6 10L86.6 30 86.6 10L69.28 0L51.96 10L51.96 30L69.28 40L86.6 30L86.6 10z" stroke-linejoin="miter" fill="rgba(42, 76, 101,1)"/>
+      <path d="M39.84 43L39.84 49L34.64 46L29.44 49L29.44 43L24.25 40L29.44 37L29.44 31L34.64 34L39.84 31L39.84 37L45.03 40L39.84 43 37.64 34.8L34.64 41.61L31.64 34.8L36.03 40.8L28.64 40L36.03 39.2L31.64 45.2L34.64 38.39L37.64 45.2L33.25 39.2L40.64 40L33.25 40.8L37.64 34.8z" stroke-linejoin="miter" fill="rgba(136, 142, 231,1)"/>
+    </pattern>
+  </defs>
+  <rect fill="url(#doodad)" height="200%" width="200%"/>
+</svg>

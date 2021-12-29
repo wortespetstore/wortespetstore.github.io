@@ -1,0 +1,304 @@
+
+body {
+    
+    background-image: url(../Backgrounds/lilacstars.svg);
+    font-family: Helvetica, Arial, sans-serif;
+
+    
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    font-size: xx-large;
+    text-shadow: 2px 2px 3px rgb(175, 175, 175);
+    text-transform: capitalize;
+    
+
+}
+
+div h2  {
+    color:rgb(61, 42, 165);
+    text-align: center;
+}
+
+div img {
+    margin-left: 60px;
+}
+
+#navigate {
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(61, 42, 165);
+    border-radius: 12px;
+    background-color: rgba(198,207,241,255);
+    padding: 20px;
+    margin: 12px;
+    line-height: 1.2;
+
+    
+}
+
+
+#cats {
+   border-width: 2.5px;
+   border-style: solid;
+   border-color: rgb(61, 42, 165);
+   border-radius: 12px;
+   padding: 20px;
+   width: 35em;
+   margin: 20px;
+   margin-left: 40px;
+   text-align: left;
+   list-style-position: inside;
+   list-style-type: circle;
+   list-style-image: url(../Icons/icons8-cat-footprint-100.png);
+   background-color: rgba(198,207,241,255);
+   background-image: url(../Icons/play-with-pet2.png);
+   background-repeat: no-repeat;
+   background-position-x: 400px;
+   background-position-y: 500px;
+   
+   
+}
+img {
+    border-width: 3px;
+    border-style: outset;
+    border-color: rgb(61, 42, 165);
+
+}
+
+#dogs {
+    border-width: 2.5px;
+   border-style: solid;
+   border-color: rgb(61, 42, 165);
+   border-radius: 12px;
+   padding: 20px;
+   width: 35em;
+   margin: 20px;
+   margin-left: 40px;
+   text-align: left;
+   list-style-position: inside;
+   list-style-type: square;
+   list-style-image: url(../Icons/icons8-cat-footprint-100.png);
+   background-color: rgba(198,207,241,255);
+   background-image: url(../Icons/doglove2.png);
+   background-repeat: no-repeat;
+   background-position-x: 380px;
+   background-position-y: 500px;
+}
+
+#rabbits {
+    border-width: 2.5px;
+   border-style: solid;
+   border-color: rgb(61, 42, 165);
+   border-radius: 12px;
+   padding: 20px;
+   width: 35em;
+   margin: 20px;
+   margin-left: 40px;
+   text-align: left;
+   list-style-position: inside;
+   list-style-type: square;
+   list-style-image: url(../Icons/icons8-cat-footprint-100.png);
+   background-color: rgba(198,207,241,255);
+   background-image: url(../Icons/rabbit.png);
+   background-repeat: no-repeat;
+   background-position-x: 380px;
+   background-position-y: 500px;
+
+
+}
+
+#turtle {
+
+    border-width: 2.5px;
+   border-style: solid;
+   border-color: rgb(61, 42, 165);
+   border-radius: 12px;
+   padding: 20px;
+   width: 35em;
+   margin: 20px;
+   margin-left: 40px;
+   text-align: left;
+   list-style-position: inside;
+   list-style-type: square;
+   list-style-image: url(../Icons/icons8-cat-footprint-100.png);
+   background-color: rgba(198,207,241,255);
+   background-image: url(../Icons/turtle.png);
+   background-repeat: no-repeat;
+   background-position-x: 350px;
+   background-position-y: 330px;
+
+}
+
+#snakes {
+    border-width: 2.5px;
+    border-style: solid;
+    border-color: rgb(61, 42, 165);
+    border-radius: 12px;
+    padding: 20px;
+    width: 35em;
+    margin: 20px;
+    margin-left: 40px;
+    text-align: left;
+    list-style-position: inside;
+    list-style-type: square;
+    list-style-image: url(../Icons/icons8-cat-footprint-100.png);
+    background-color: rgba(198,207,241,255);
+    background-image: url(../Icons/snake.png);
+    background-repeat: no-repeat;
+    background-position-x: 350px;
+    background-position-y: 310px;
+}
+
+a:link {
+    color: rgb(170, 59, 47);
+    text-decoration: none;
+}
+
+a:visited {
+    color:rgb(61, 42, 165);
+
+}
+ a:hover {
+     color: black;
+     text-decoration: underline crimson;
+ }
+
+ .ast {
+     color: rgb(230, 7, 52);
+ }
+
+ footer {
+     padding: 30px;
+     margin: 10px;
+     text-align: center;
+ }
+
+ .foot {
+     font-size: x-small;
+     text-align: center;
+ }
+
+
+ #catcare1 li {
+     list-style-type: square;
+ }
+
+ iframe {
+     border-width: thick;
+     border-style: outset;
+     border-color: rgb(61, 42, 165);
+     margin-top: 10px;
+     margin-bottom: 10px;
+    
+ }
+
+ .dogspart2, .catspart2, .rabbitspart2, .snakespart2 {
+
+    line-height: 1.7em;
+ }
+
+ .letter::first-letter {
+     font-size: x-large;
+     font-weight: bold;
+ }
+
+ aside {
+    border-width: 2.5px;
+    border-style: solid;
+    border-color: white;
+    float: right;
+    width: 30%;
+    background-color: rgba(198,207,241,255);
+    padding: 10px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    line-height: 1.7em;
+    background-color: #8e90e5;
+    box-shadow: 0px 15px 25px -4px rgba(30,30,60,0.25);
+
+
+
+ }
+dd {
+    line-height: 1.6em;
+}
+
+a[href*='#top'] {
+    float: right;
+    padding-right: 20px;
+}
+
+#related {
+    text-align: center;
+    padding: 10px;
+    font-size: large;
+    font-variant: small-caps;
+    letter-spacing: 0.2em;
+}
+
+h2 {
+    font-variant: small-caps;
+    text-shadow: 2px 2px 3px rgb(175, 175, 175);
+}
+
+table {
+    background-color: rgba(198,207,241,255);
+    text-align: center;
+    border-color: rgb(61, 42, 165);
+    border-radius: 2px;
+    border-width: 3px;
+    border-style: outset;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    
+    
+}
+
+th {
+    background-color: #8e90e5;
+    font-style: italic;
+}
+
+td {
+    padding: 20px;
+    margin: 10px;
+}
+
+#tabcaption {
+    border-style: solid;
+    border-color: rgb(61, 42, 165);
+    border-width: 1.5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+}
+
+.heading {
+    background-color: #8e90e5;
+    font-weight: bold;
+
+}
+
+
+
+
+
+
+
+
+/*text-align will align all the inline content in a block
+element. So in this case, we’re setting the property on the
+<div> block element, and all its inline content is nicely
+centered as a result. Just remember that text-align,
+despite its name, works on any kind of inline element.
+One other thing to keep in mind: the text-align
+property should be set on block elements only. It has no
+effect if it’s used directly on inline elements (like <img>*/

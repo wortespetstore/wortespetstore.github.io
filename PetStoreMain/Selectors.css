@@ -1,0 +1,165 @@
+/*There are roughly six types of selectors*/
+/*Element/type selector, grouped selectors, descendant selectors, ID selectors, Class selectors, and universal selector.*/
+/*Element selectors*/
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../../../Downloads/cool-background.png);
+    text-align: justify;
+
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/*Grouped selectors*/
+
+ h2, h3 {
+    font-family: 'Prata', serif;
+}
+
+/*Descendant selectors*/
+#iran i {
+color: crimson;
+}
+
+#poly em {
+    border: dashed black 1px;
+    padding: 3.5px;
+}
+
+p b {
+    text-decoration: dotted cornflowerblue underline;
+}
+
+/*ID selectors*/
+
+#rag, #coon, #siam, #bengal, #per {
+    text-shadow: 2px 2px 3px rgb(121, 120, 120);
+}
+
+/*Universal selectors*/
+* {
+    color: black;
+}
+
+/*Class selectors*/
+.purebred {
+    text-decoration: underline wavy fuchsia;
+}
+
+.hybrid {
+    text-decoration: wavy underline rgb(0, 204, 255);
+}
+
+.domestic {
+    text-decoration: underline wavy rgb(255, 0, 128);
+}
+
+.purebred, .hybrid, .domestic {
+    color: rgb(3, 3, 94);
+}
+
+/*Other contexual selectors*/
+/*Child selector*/
+/*A child selector is similar to a descendant selector, but it targets only the direct
+children of a given element. There may be no other hierarchical levels in between.
+They are indicated with the greater-than symbol (>). The following rule affects
+emphasized text, but only when it is directly contained in a p element. An em element
+inside a link (a) within the paragraph would not be affected.*/
+
+p > b {
+    text-decoration: underline dashed maroon;
+}
+
+/*Next sibling selector*/
+/*A next-sibling selector targets an element that comes directly after another element
+with the same parent. It is indicated with a plus (+) sign. This rule gives special
+treatment to paragraphs that follow an h1. Other paragraphs are unaffected.*/
+/*h1 + p {font-style: italic;}*/
+
+
+
+
+/*Subsequent sibling selector */
+/*A subsequent-sibling selector selects an element that shares a parent with the
+specified element and occurs after it in the source order. They do not need to follow
+one another directly. This type of selector is new in CSS3 and is not supported by
+Internet Explorer 8 and earlier. The following rule selects any h2 that both shares a
+parent element (such as a section or article) with an h1 and appears after it in
+the document.
+h1 ~ h2 {font-weight: normal;} */
+
+ul ~ ul {
+    font-style: oblique;
+}
+
+ol ~ ol {
+    font-style: oblique;
+}
+
+
+
+/*Attribute selectors*/
+/*To specifically select attributes like href, src, title, etc*/
+/*he most basic syntax is an attribute surrounded by square brackets. In the above example: [href]*/
+
+[title] {
+    background-color: cadetblue;
+}
+
+/*And it can get more granular from there by adding type and/or attribute values. One way is by using type[attribute*=value]. 
+In short, this code selects an element where the attribute contains any instance of the specified value.*/
+
+/*img[src*='winter'] {
+  height: 50px;
+}
+ 
+img[src*='summer'] {
+  height: 100px;
+}
+*/
+
+img[src*='tran-mau-tri-tam-FbhNdD1ow2g-unsplash.jpg'] {
+    padding: 5px;
+}
+
+a[href*='Persian_cat'] {
+    color: darkolivegreen;
+}
+
+a[href*='Maine_Coon'] {
+    color: deeppink;
+}
+
+a[href*='Ragdoll'] {
+    color: firebrick;
+}
+
+/*Notice how no new HTML markup (like a class or id) needed to be added, and we were still able to modify the styles of each image independently. This is one advantage to using the attribute selector!*/
+
+
+/*Psuedo-classes*/
+/*You may have observed how the appearance of certain elements can change, or be in a different state, after certain user interactions. For instance:
+
+When you click on an <input> element, and a blue border is added showing that it is in focus.
+When you click on a blue <a> link to visit to another page, but when you return the link’s text is purple.
+When you’re filling out a form and the submit button is grayed out and disabled. But when all of the fields have been filled out, the button has color showing that it’s active.
+These are all examples of pseudo-class selectors in action! In fact, :focus, :visited, :disabled, and :active are all pseudo-classes. Factors such as user interaction, site navigation, and position in the document tree can all give elements a different state with pseudo-class.*/
+/*A pseudo-class can be attached to any selector. It is always written as a colon : followed by a name. For example p:hover.*/
+
+a:link {
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline crimson;
+
+}
